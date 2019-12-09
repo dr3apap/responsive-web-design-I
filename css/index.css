@@ -150,13 +150,13 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Header styles starts here*/
+
 body {
     line-height: 1.8;
 }
 
 .container {
-    margin: 1% 3%;
+    margin: 3% 4%;
    
   }
   
@@ -183,7 +183,7 @@ nav a{
   }
   
   .halves {
-    /* border: 1px solid black; */
+    
     font-size: 4.5rem;
     text-align: center;
     line-height: 55px;
@@ -259,4 +259,73 @@ nav a{
   }
 
 
-  /* @viewpoint for the (width */
+  /* @viewpoint for the (width 800px starts here*/
+@media(max-width: 800px) {
+     nav {
+          flex-direction: column-reverse;
+
+    }
+
+     .whole {
+         flex-direction: column;
+    }
+
+     .halves{
+         flex-direction: column;
+     }
+     .description{
+
+        flex-direction: column;
+     }
+
+    
+.descrpition2{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+
+}
+
+
+/* @ view point for 500px starts here   */
+@media(max-width: 500px){
+
+  .nav  {
+
+       flex-direction: column;
+    
+     }
+
+
+     .whole {
+        flex-direction: column;
+    }
+
+
+    .halves{
+        flex-direction: column;
+    }
+    
+
+
+    .description{
+
+        flex-direction: column;
+     }
+
+
+    
+    .descrpition2{
+        flex-direction: column;
+        ;
+    
+    }
+    
+}
+
+
+    
+
+
+  
