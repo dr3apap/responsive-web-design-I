@@ -1,3 +1,362 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/*This is the reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.4;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #d0d5ec;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+
+body {
+    line-height: 1.8;
+}
+
+.container {
+    margin: 1% 4%;
+   
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(124, 121, 121);
+  }
+  
+
+  
+nav a{
+    color:black;
+}
+  .whole {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  }
+  
+  .halves {
+    
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 55px;
+    /* margin-left: %; */
+    color: rgb(100%, 100%, p 20%);
+  }
+  
+  .halves:nth-child(2) {
+    margin-left: 10%;
+  }
+  
+  .button {
+    width: 10rem;
+    height: 35px;
+    width: 70%;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .button:hover {
+    background-color: rgba(77, 49, 155, 0.534);
+    color: white;
+    transition: 0.8s;
+  }
+  
+  .description {
+    display: flex;
+  }
+  
+  .description2 {
+  display: flex;
+ justify-content: space-evenly;
+  
+
+}
+  
+  .middle-img {
+    margin: 3% 0;
+    width: 100%;
+  }
+  
+   .third {
+    width: 29%;
+  } 
+   
+  .features {
+    padding-top: 1%;
+    width: 90%;
+    margin-right: 2%;
+  }
+  
+  .about {
+    padding-top: 1%;
+    width: 90%;
+    margin-left: 2%;
+  }
+  
+  h6 {
+    text-align: center;
+    padding: 5%;
+  }
+  h6 {
+    color: black;
+  }
+  
+  hr{
+  
+   color: black;
+  }
+
+  footer {
+      padding:1%;
+  }
+
+
+  /* @viewpoint for the (width 800px starts here*/
+@media(max-width: 800px) {
+     nav {
+          flex-direction: column-reverse;
+          align-items: center;
+
+    }
+
+    
+
+     .whole {
+         flex-direction: column;
+         align-items: center;
+         
+
+    }
+
+     .halves{
+         flex-direction: column;
+     align-items: center;
+
+     }
+     .description{
+
+        flex-direction: column;
+     }
+
+    
+.description2{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .image {
+
+  display: none;
+  }
+
+.third{
+    width:100%;
+}
+
+
+
+}
+
+
+/* @ view point for 500px starts here   */
+@media(max-width: 500px){
+
+  .nav  {
+
+       flex-direction: column;
+    
+     }
+
+
+     .whole {
+        flex-direction: column;
+    }
+
+
+    .halves{
+        flex-direction: column;
+    }
+    
+
+
+    .description{
+
+        flex-direction: column;
+     }
+
+
+    
+    .description2{
+        flex-direction: column;
+        /* width:100%; */
+        
+    
+    }
+    
+
+    .description2{
+
+
+        width:100%;
+        
+    }
+
+
+
+
+
+}
+
+
+    
+
+
+  
