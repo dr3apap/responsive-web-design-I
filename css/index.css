@@ -156,7 +156,7 @@ body {
 }
 
 .container {
-    margin: 3% 4%;
+    margin: 1% 4%;
    
   }
   
@@ -167,15 +167,13 @@ body {
     color: rgb(124, 121, 121);
   }
   
-  nav a:nth-child(6) {
-    margin-right: 3.566857364%;
-  }
+
   
 nav a{
     color:black;
 }
   .whole {
-    margin: 10% 0;
+    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -187,7 +185,7 @@ nav a{
     font-size: 4.5rem;
     text-align: center;
     line-height: 55px;
-    margin-left: 25%;
+    /* margin-left: %; */
     color: rgb(100%, 100%, p 20%);
   }
   
@@ -215,20 +213,22 @@ nav a{
     display: flex;
   }
   
-  .descrpition2 {
+  .description2 {
   display: flex;
-    justify-content: space-between;
-  }
+ justify-content: space-evenly;
+  
+
+}
   
   .middle-img {
     margin: 3% 0;
     width: 100%;
   }
   
-  .third {
+   .third {
     width: 29%;
-  }
-  
+  } 
+   
   .features {
     padding-top: 1%;
     width: 90%;
@@ -263,15 +263,23 @@ nav a{
 @media(max-width: 800px) {
      nav {
           flex-direction: column-reverse;
+          align-items: center;
 
     }
 
+    
+
      .whole {
          flex-direction: column;
+         align-items: center;
+         
+
     }
 
      .halves{
          flex-direction: column;
+     align-items: center;
+
      }
      .description{
 
@@ -279,10 +287,20 @@ nav a{
      }
 
     
-.descrpition2{
+.description2{
     flex-direction: column;
     justify-content: space-evenly;
   }
+
+  .image {
+
+  display: none;
+  }
+
+.third{
+    width:100%;
+}
+
 
 
 }
@@ -316,12 +334,25 @@ nav a{
 
 
     
-    .descrpition2{
+    .description2{
         flex-direction: column;
-        ;
+        /* width:100%; */
+        
     
     }
     
+
+    .description2{
+
+
+        width:100%;
+        
+    }
+
+
+
+
+
 }
 
 
